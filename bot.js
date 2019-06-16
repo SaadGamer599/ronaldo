@@ -83,6 +83,8 @@ m.sendMessage(args)
        $bc  |  لأرسال برود كاست للأونلاين
 
        $adminbc | برودكاست عادي
+       
+       Dev By Sààà[À]àààD
 
        ** `)
    message.author.sendEmbed(embed)
@@ -90,7 +92,7 @@ m.sendMessage(args)
    }
    });
 
-const developers = ["472413769700474901","id"]
+const developers = ["454441083758182400","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
